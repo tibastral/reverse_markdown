@@ -5,7 +5,7 @@ module ReverseMarkdown
         alt   = node['alt']
         src   = node['src']
         title = extract_title(node)
-        " ![#{alt}](#{File.join('https://s3-eu-west-1.amazonaws.com/babeldoor/', src)}#{title})"
+        " ![#{alt}](#{File.join('https://s3-eu-west-1.amazonaws.com/babeldoor-eu/', src)}#{title})"
       end
     end
 
